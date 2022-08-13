@@ -1,0 +1,21 @@
+create table adm(
+    id_adm serial primary key not null,
+    user_adm varchar(100) not null,
+    senha_adm varchar(100) not null
+);
+
+create table arquivos(
+    id_arq serial primary key not null,
+    Nome varchar(100) not null,
+    ano int not null,
+    path_arq varchar(100) not null
+);
+
+create table usuario(
+    id_usser serial not null,
+    usuario varchar(100) not null,
+    senha_user varchar(50) not null
+);
+
+insert into adm(user_adm,senha_adm) values ('teste','123')
+
