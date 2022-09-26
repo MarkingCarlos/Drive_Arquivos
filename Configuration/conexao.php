@@ -1,8 +1,8 @@
 <?php
 
-$usuario = 'Usuario';
-$senha = 'senha';
-$database = 'nome_banco';
+$usuario = 'root';
+$senha = '';
+$database = 'drive';
 $host = 'localhost';
 
 $mysqli = new mysqli($host, $usuario, $senha, $database);

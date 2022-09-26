@@ -11,6 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel adm</title>
     <link href="css/adm_page.css" rel="stylesheet">
+    <style>
+		body{
+			background-image: url(../img/fundo.png);
+		}
+
+	</style>
 </head>
 <body>
     <div class="login">

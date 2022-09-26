@@ -5,6 +5,6 @@
     }
 
     if(!isset($_SESSION['id_adm'])){
-        die("Acesso negado. <p><a href=\"../index.php\">Logar</a></p>");
+        header("Location: segurit.php");
     }
 ?>
