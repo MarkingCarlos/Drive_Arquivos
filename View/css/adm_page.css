@@ -6,36 +6,9 @@
     padding: 0px;
 }
 
-body {
-    background-color: whitesmoke;
-}
-
-
-.login {
-    padding: 4em;
-    padding-bottom: 3em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    background-color: rgb(102, 195, 238);
 
 
 
-}
-
-.login input {
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
-    width: 92%;
-}
-
-.login label {
-    margin-left: 5px;
-    font-size: 1.2em;
-}
 
 .login h1 {
     text-align: center;

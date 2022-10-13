@@ -6,13 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cas_Arquivos</title>
-	<link href="view/css/principal.css" rel="stylesheet">
+	
 	<style>
 		body{
 			background-image: url(img/fundo.png);
 		}
+		.login {
+			padding: 3em;
+			padding-bottom: 3em;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 10px;
+			background-color: white;
+			-webkit-box-shadow: -3px 0px 30px 0px rgba(50, 50, 50, 0.75);
+			-moz-box-shadow:    -3px 0px 30px 0px rgba(50, 50, 50, 0.75);
+			box-shadow:         -3px 0px 30px 0px rgba(50, 50, 50, 0.75);
+			width: 20%;
 
+
+
+		}
+		.login form{
+			
+			width: 80%;
+			margin-left: 30px;
+		}
+		span{
+			font-family: 'Montserrat', sans-serif;
+
+		}
+		input{
+			font-family: 'Montserrat', sans-serif;
+			width: 90%;
+			padding: 10px;
+    		border-radius: 10px;
+    		outline: none;
+		}
+		h1{
+			text-align: center;
+			font-family: 'Open Sans', sans-serif;
+		}
+		button {
+		background-color: dodgerblue;
+		border: none;
+		color: white;
+		width: 100%;
+		height: 45px;
+		border-radius: 10px;
+		}
+		.op{
+			width: 10%;
+		}
+		
+		
+		
 	</style>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 <body >
 
@@ -20,11 +74,13 @@
 	<div class="login">
 	<div>
 	<form action="" method="post">
-			<label> Usuario</label><br>
+			<h1>LOGIN</h1>
+			
+			<span> Usuario</span><br>
 			<input type="text" name="user">
 
 		<br><br>
-			<label>Senha</label><br>
+			<span>Senha</span><br>
 			<input type="password" name="senha">
 		<br><br>
 			<input class="op" type="radio" name="adm_btn" value="adm" >Administrador
