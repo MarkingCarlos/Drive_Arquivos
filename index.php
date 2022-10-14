@@ -102,7 +102,7 @@
 
 						$user = $mysqli->real_escape_string($_POST['user']);
 						$senha = $mysqli->real_escape_string($_POST['senha']);
-
+						$senha = md5($senha);
 						$sql_code = "SELECT * from adm where user_adm = '$user' and senha_adm = '$senha'";
 						$sql_query = $mysqli->query($sql_code) or die("Falha na execução: " . $mysqli->error);
 
@@ -136,7 +136,7 @@
 	
 						$user = $mysqli->real_escape_string($_POST['user']);
 						$senha = $mysqli->real_escape_string($_POST['senha']);
-	
+						$senha = md5($senha);
 						$sql_code = "SELECT * from usuario where usuario = '$user' and senha_user = '$senha'";
 						$sql_query = $mysqli->query($sql_code) or die("Falha na execução: " . $mysqli->error);
 	

@@ -118,6 +118,7 @@
                                 else{
                                 $usuario = $mysqli->real_escape_string($_POST['usuario']);
                                 $senha_user = $mysqli->real_escape_string($_POST['senha_user']);
+                                $senha_user = md5($senha_user);
                                 $cidade = $mysqli->real_escape_string($_POST['cidades']);
                     
                                 $sql_code = "INSERT into usuario(usuario,senha_user,cidade)  values ('$usuario','$senha_user','$cidade')";
